@@ -1,56 +1,80 @@
-# 📝 Simple Text Area
+# 📝 SIMPLE TEXT AREA
 
-A simple and user-friendly text area web application built using **HTML, Tailwind CSS, and JavaScript**. It provides a clean interface for entering and managing text easily.
+### A Simple and Responsive Text Area Web Application
 
-## 🚀 Features
+A clean and user-friendly **Simple Text Area** project built using **HTML5, Tailwind CSS v4, and JavaScript**. This project demonstrates responsive UI design and basic text area functionality.
+
+---
+
+## ✨ Features
 
 - 📝 Simple and clean text area interface
-- 🎨 Responsive UI using Tailwind CSS
+- 🎨 Modern UI using Tailwind CSS
 - ⚡ Interactive functionality using JavaScript
-- 📋 Easy text input and editing
-- 📱 User-friendly design
-- 💻 Works in modern web browsers
+- 📱 Responsive design
+- 💻 Easy-to-use interface
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – Creates the structure of the web page.
-- **Tailwind CSS** – Styles the application using utility classes.
-- **JavaScript** – Handles user interactions and functionality.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Web page structure |
+| Tailwind CSS v4 | Styling and responsive design |
+| JavaScript | Interactivity and DOM manipulation |
+| Node.js & npm | CSS build tools and package management |
 
 ## 📂 Project Structure
 
 ```text
 SIMPLE-TEXT-AREA/
 │
+├── node_modules/
+│
+├── src/
+│   ├── input.css
+│   └── output.css
+│
 ├── index.html
-├── script.js
-├── README.md
-└── package.json
+├── package.json
+├── package-lock.json
+└── README.md
 ```
 
-*Note: Update the file structure according to your actual project files.*
+## ⚙️ Installation and Setup
 
-## ⚙️ How to Run the Project
+**Step 1: Clone the Repository**
 
-1. Clone the repository:
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
 
-   ```bash
-   git clone YOUR_GITHUB_REPOSITORY_URL
-   ```
+**Step 2: Navigate to the Project Folder**
 
-2. Open the project folder:
+```bash
+cd SIMPLE-TEXT-AREA
+```
 
-   ```bash
-   cd SIMPLE-TEXT-AREA
-   ```
+**Step 3: Install Dependencies**
 
-3. Open `index.html` in your browser.
+```bash
+npm install
+```
 
-4. Start using the Simple Text Area application.
+**Step 4: Build Tailwind CSS**
 
-## 🎯 Purpose
+Run the command configured in your project, or use the Tailwind CSS v4 CLI:
 
-The purpose of this project is to practice HTML structure, Tailwind CSS styling, and JavaScript DOM manipulation while building a simple and interactive web application.
+```bash
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css
+```
+
+**Step 5: Run the Project**
+
+Open `index.html` in your browser.
+
+## 🎯 Project Objective
+
+The main objective of this project is to practice HTML, Tailwind CSS, JavaScript, and frontend development by building a simple, responsive, and interactive text area application.
 
 ## 👨‍💻 Author
 
@@ -60,4 +84,5 @@ GitHub: [SANTHOSH0530](https://github.com/SANTHOSH0530)
 
 ---
 
-⭐ If you like this project, consider giving it a star on GitHub!
+⭐ If you find this project useful, give it a star on GitHub!
+
