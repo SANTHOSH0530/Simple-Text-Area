@@ -1,46 +1,25 @@
-A simple message box that counts characters in real time. It stops typing at 200 characters and shows a warning when the limit is reached. You can also copy the text or clear it with one click.
+📝 Simple Text Area
 
-✨ Features
-🔢 Live counter: Shows how many characters are typed and how many are left (example: 150/200 characters, 50 remaining)
-🚫 Character limit: Stops typing at 200 characters, and pasted text is cut to the limit too
-⚠️ Warning message: Appears when the limit is reached
-📋 Copy button: Copies the text to your clipboard and shows a "Copied!" message
-🧹 Clear button: Empties the text box in one click
-🎨 Tailwind CSS styling: Clean and responsive design
-🛠️ Built With
-🌐 HTML5: Page structure
-🎨 Tailwind CSS: Styling
-⚡ JavaScript: Counter, copy, and clear logic
-🔤 Google Fonts (Poppins): Typography
-📁 Project Structure
-character-counter/
-├── index.html        # Main page
-├── src/
-│   ├── input.css     # Tailwind source file
-│   └── output.css    # Generated CSS (created by Tailwind)
-├── package.json      # Project info and dependencies
-└── README.md         # This file
-🚀 Getting Started
-1. Clone the repository
-bash
-git clone https://github.com/your-username/character-counter.git
-cd character-counter
-2. Install Tailwind CSS
-bash
-npm install
-npm install -D tailwindcss @tailwindcss/cli
-3. Build the CSS
+A simple and user-friendly text area web application built using HTML, Tailwind CSS, and JavaScript. It provides a clean interface for entering and managing text easily.
 
-Run this in the terminal and keep it open. It updates the CSS whenever you save a file:
+🚀 Features
 
-bash
-npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
-4. Open the app
+📝 Simple and clean text area interface
 
-Open index.html in your browser. For a quicker setup, you can use the Live Server extension in VS Code.
+🎨 Responsive UI using Tailwind CSS
 
-📖 How to Use
-⌨️ Type your message in the text box.
-👀 Watch the counter update as you type.
-📋 Click Copy to copy the message.
-🧹 Click Clear to start again.
+⚡ Interactive functionality using JavaScript
+
+📋 Easy text input and editing
+
+📱 User-friendly design
+
+💻 Works in modern web browsers
+
+🛠️ Technologies Used
+
+HTML5 – Creates the structure of the web page.
+
+Tailwind CSS – Styles the application using utility classes.
+
+JavaScript – Handles user interactions and functionality.
